@@ -20,7 +20,6 @@ before_archive:
   # Archive the TeX log files, and any generated output files
   - mkdir -p shippable/;
     cp -f *.log shippable/;
-    cp -f *.dvi shippable/;
     cp -f *.pdf shippable/;
 
 archive: true
